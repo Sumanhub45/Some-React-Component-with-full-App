@@ -1,0 +1,18 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.apppp{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
+h1{
+    text-align: center;
+    font-size: 10vmin;
+    margin:4vmin;
+    font-family: monospace;
+}

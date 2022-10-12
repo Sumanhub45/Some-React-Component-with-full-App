@@ -1,0 +1,98 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* css styleing for Nav1  */
+
+.nav {
+  height: 8vmin;
+  width: auto;
+  background-color: #c3e08c;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  color: rgb(2, 3, 20);
+  font-size: 5vmin;
+  margin: 5vmin;
+  cursor: pointer;
+}
+div ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 2vin 4vmin;
+  margin: 5vmin;
+}
+
+
+@media screen and (max-width: 1000px) {
+    ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 2vin 4vmin;
+        margin: 2vmin;
+      }
+  }
+@media screen and (max-width: 700px) {
+    ul li {
+        list-style-type: none;
+        display: inline-block;
+        padding: 2vin 4vmin;
+        margin: 1vmin;
+      }
+      button {
+        margin-right: 5vmin;
+        width: 22vmin;
+        height: 5vmin;
+        background-color: rgb(185, 228, 241);
+        color: rgb(10, 4, 4);
+        border: none;
+        font-size: 3vmin;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+  }
+ul li a {
+  color: rgb(1, 7, 6);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 3vmin;
+  text-decoration: none;
+}
+
+ul li:hover {
+  color: rgb(208, 106, 16);
+  background-color:#bee07f;
+  transition: 0.3s;
+  width: 10vmin;
+  height: 5vmin;
+
+}
+button {
+  margin: 5vmin;
+  width: 22vmin;
+  height: 5vmin;
+  background-color: rgb(185, 228, 241);
+  color: rgb(10, 4, 4);
+  border: none;
+  font-size: 3vmin;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: rgb(208, 106, 16);
+  color: white;
+  transform: scale(1.1);
+  transition: 0.3s;
+}
